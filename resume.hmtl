@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Jacques Rebero</title>
+  <meta name="description" content="Resume of Jacques Rebero – Business Analyst with expertise in data analytics, financial analysis, forecasting, ESG analytics, and economic analysis." />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f7f9fc;
+      color: #1f2933;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2.5rem 1.5rem;
+      background: #ffffff;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      border-radius: 10px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      margin-bottom: 0.3rem;
+    }
+
+    header p {
+      color: #374151;
+      font-weight: bold;
+    }
+
+    header .links {
+      margin-top: 0.8rem;
+      font-size: 0.95rem;
+    }
+
+    header .links a {
+      color: #2563eb;
+      text-decoration: none;
+      margin: 0 0.6rem;
+      font-weight: bold;
+    }
+
+    .download {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .download a {
+      display: inline-block;
+      background: #2563eb;
+      color: #ffffff;
+      padding: 0.75rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      margin-bottom: 2.2rem;
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.4rem;
+      color: #1e40af;
+    }
+
+    .entry {
+      margin-bottom: 1.3rem;
+    }
+
+    .entry h3 {
+      font-size: 1.15rem;
+      color: #111827;
+    }
+
+    .entry span {
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    ul {
+      margin-left: 1.2rem;
+      list-style: disc;
+      margin-top: 0.4rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: #6b7280;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.1rem;
+      }
+      .container {
+        padding: 2rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>Jacques Rebero</h1>
+    <p>Junior Business Analyst | Data Analytics | Financial & Economic Analysis</p>
+
+    <div class="links">
+      <a href="index.html">Portfolio</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="skills.html">Skills</a>
+    </div>
+  </header>
+
+  <div class="download">
+    <a href="assets/reports/Jacques_Rebero_Resume.pdf" target="_blank">
+      Download Resume (PDF)
+    </a>
+  </div>
+
+  <!-- PROFILE -->
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Business Analytics professional with hands-on experience in business performance analysis,
+      financial and ESG analytics, time series forecasting, database systems, and AI-powered decision
+      support tools. Strong ability to translate complex data into actionable insights for strategic,
+      operational, and policy-level decision-making.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <div class="entry">
+      <h3>Kepler College</h3>
+      <span>Bachelor’s Degree – Business Analytics</span>
+      <ul>
+        <li>Coursework: Business Analytics, Financial Analysis, Econometrics, Databases, AI Systems</li>
+        <li>Projects focused on real-world business and economic applications</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Selected Experience & Projects</h2>
+
+    <div class="entry">
+      <h3>Sales Performance Analysis – Inyange Industries</h3>
+      <span>Business Analytics Project</span>
+      <ul>
+        <li>Analyzed multi-year sales trends across branches and product lines</li>
+        <li>Identified underperforming flavors and stockout-driven revenue losses</li>
+        <li>Delivered actionable recommendations for inventory and marketing optimization</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <h3>Tourism Forecasting – Rwanda</h3>
+      <span>Time Series Analysis (SARIMA)</span>
+      <ul>
+        <li>Built seasonal forecasting models for tourist arrivals (2015–2023)</li>
+        <li>Handled structural breaks due to COVID-19 disruptions</li>
+        <li>Generated long-term forecasts to support tourism planning</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <h3>Bitcoin Value Forecasting</h3>
+      <span>Financial Time Series Analysis</span>
+      <ul>
+        <li>Applied ARIMA modeling to cryptocurrency price data</li>
+        <li>Analyzed volatility, trends, and risk patterns</li>
+        <li>Evaluated model accuracy using residual diagnostics</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <h3>ESG & Financial Performance Analysis – Uchumi PLC</h3>
+      <span>Financial & Sustainability Analytics</span>
+      <ul>
+        <li>Developed ESG scoring framework</li>
+        <li>Analyzed relationships between ESG metrics and financial performance</li>
+        <li>Used regression analysis to assess long-term impact</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Python (Pandas, Matplotlib, Seaborn)</li>
+      <li>Microsoft Excel (advanced analysis & visualization)</li>
+      <li>Power BI, SPSS</li>
+      <li>SQL, Relational & NoSQL Databases (MongoDB)</li>
+      <li>Time Series Modeling (ARIMA, SARIMA)</li>
+      <li>Statistical Analysis & Regression</li>
+      <li>AI Systems & Chatbot Development</li>
+    </ul>
+  </section>
+
+  <!-- ECONOMICS -->
+  <section>
+    <h2>Economics & Strategy</h2>
+    <ul>
+      <li>Trade and international economics analysis</li>
+      <li>Fiscal and monetary policy evaluation</li>
+      <li>Business strategy and market analysis</li>
+      <li>Data-driven policy recommendations</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2026 Jacques Rebero | Resume</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
