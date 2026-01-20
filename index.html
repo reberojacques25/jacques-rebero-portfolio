@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jacques Rebero | Business & Data Analytics Portfolio</title>
-  <meta name="description" content="Portfolio of Jacques Rebero – Business Analyst specializing in financial analysis, time series forecasting, ESG analytics, data-driven strategy, and economic analysis." />
+  <meta name="description" content="Jacques Rebero – Junior Business Analyst specializing in data analytics, financial analysis, forecasting, and economic analysis." />
 
   <style>
     * {
@@ -23,23 +23,44 @@
     .container {
       max-width: 1100px;
       margin: auto;
-      padding: 2rem 1.5rem;
+      padding: 2.5rem 1.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.8rem;
+      margin-bottom: 3rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2563eb;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     header {
       text-align: center;
-      margin-bottom: 3rem;
+      margin-bottom: 4rem;
     }
 
     header h1 {
-      font-size: 2.6rem;
+      font-size: 2.7rem;
       margin-bottom: 0.5rem;
     }
 
     header p.role {
       font-weight: bold;
       color: #2563eb;
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    section {
+      margin-bottom: 3.5rem;
     }
 
     section h2 {
@@ -49,30 +70,16 @@
       padding-bottom: 0.5rem;
     }
 
-    section h3 {
-      margin-top: 2rem;
-      margin-bottom: 0.75rem;
-      color: #111827;
-      font-size: 1.35rem;
-    }
-
     ul {
       list-style: none;
-      margin-left: 0;
     }
 
     li {
       background: #ffffff;
-      padding: 1rem 1.2rem;
+      padding: 1.2rem;
       border-radius: 8px;
-      margin-bottom: 0.75rem;
+      margin-bottom: 1rem;
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
-
-    li strong {
-      display: block;
-      margin-bottom: 0.25rem;
-      color: #1e40af;
     }
 
     footer {
@@ -85,129 +92,69 @@
 
     @media (max-width: 768px) {
       header h1 {
-        font-size: 2rem;
+        font-size: 2.1rem;
       }
 
       section h2 {
         font-size: 1.6rem;
-      }
-
-      section h3 {
-        font-size: 1.2rem;
       }
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <header>
-      <h1>Jacques Rebero</h1>
-      <p class="role">Junior Business Analyst | Data Analytics | Financial & Economic Analysis</p>
-      <p>
-        I am a Business Analytics professional with hands-on experience in financial analysis,
-        time series forecasting, ESG evaluation, operations analytics, and economic policy analysis.
-        My work spans real-world business cases, predictive models, database systems,
-        AI-powered analytics, and strategic business planning.
-      </p>
-    </header>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <section>
-      <h2>Complete Project Portfolio</h2>
-      <p>The following is a comprehensive list of all projects I have completed to date.</p>
+  <!-- Hero Section -->
+  <header>
+    <h1>Jacques Rebero</h1>
+    <p class="role">Junior Business Analyst | Data & Financial Analytics</p>
+    <p>
+      I am a Business Analytics professional with hands-on experience in data analysis,
+      financial modeling, forecasting, ESG analytics, and economic policy evaluation.
+      I specialize in transforming data into actionable insights for decision-making.
+    </p>
+  </header>
 
-      <h3>Business & Operations Analytics</h3>
-      <ul>
-        <li>
-          <strong>Sales Performance Analysis – Inyange Industries</strong>
-          Revenue trends, product performance, and regional comparisons using Excel and descriptive statistics.
-        </li>
-        <li>
-          <strong>Customer Request & Shipment Analysis – WJP Group</strong>
-          Revenue trends, order forecasting, and shipment optimization using Power BI, Python, and SPSS.
-        </li>
-      </ul>
+  <!-- Core Strengths -->
+  <section>
+    <h2>Core Expertise</h2>
+    <ul>
+      <li>Business & Financial Analytics</li>
+      <li>Time Series Forecasting (ARIMA, SARIMA)</li>
+      <li>Data Visualization & Dashboarding</li>
+      <li>Economic & Policy Analysis</li>
+      <li>Database Systems & AI-powered Analytics</li>
+    </ul>
+  </section>
 
-      <h3>Financial Analytics & ESG</h3>
-      <ul>
-        <li>
-          <strong>ESG & Financial Performance Analysis – Uchumi Supermarkets PLC (2015–2024)</strong>
-          ESG scoring, financial ratio analysis, correlation and regression modeling, and predictive insights.
-        </li>
-      </ul>
+  <!-- Call to Action -->
+  <section>
+    <h2>Explore My Work</h2>
+    <ul>
+      <li>
+        View my complete analytics portfolio, including business cases, forecasting models,
+        AI systems, and economic analysis projects.
+        <br><br>
+        👉 <a href="projects.html">Go to Projects</a>
+      </li>
+    </ul>
+  </section>
 
-      <h3>Time Series & Forecasting</h3>
-      <ul>
-        <li>
-          <strong>Tourist Visitors Forecasting – Rwanda (2015–2023)</strong>
-          SARIMA modeling, seasonality analysis, and long-term forecasting using SPSS.
-        </li>
-        <li>
-          <strong>Bitcoin Core Value Forecasting</strong>
-          ARIMA modeling, volatility analysis, and financial forecasting.
-        </li>
-      </ul>
+  <footer>
+    <p>© 2026 Jacques Rebero | Business Analytics Portfolio</p>
+  </footer>
 
-      <h3>Databases, Systems & AI</h3>
-      <ul>
-        <li>
-          <strong>Kepler College Database Design Project</strong>
-          Relational database modeling and implementation for academic systems.
-        </li>
-        <li>
-          <strong>Kagame Cup Tournament Database System</strong>
-          MySQL, MongoDB, and Python-based sports data architecture with analytics outputs.
-        </li>
-        <li>
-          <strong>Kepler College AI Chatbot</strong>
-          AI-powered chatbot built using Python, Streamlit, Excel, and Gemini API.
-        </li>
-        <li>
-          <strong>Medical AI Assistant (Doctor Support Agent)</strong>
-          AI agent designed to assist medical professionals in interpreting patient data.
-        </li>
-      </ul>
-
-      <h3>Economics & Policy Analysis</h3>
-      <ul>
-        <li>
-          <strong>The Rise of Digital Currency</strong>
-          Analysis of cryptocurrencies, stablecoins, CBDCs, and monetary policy impacts.
-        </li>
-        <li>
-          <strong>Rwanda’s Coffee Boom – International Trade Analysis</strong>
-          Trade balance, opportunity cost, export dependency, and sustainability.
-        </li>
-        <li>
-          <strong>Malawi Government Budget Cuts – Fiscal Policy Analysis</strong>
-          GDP impact, fiscal multipliers, inflation, and human capital effects.
-        </li>
-      </ul>
-
-      <h3>Business Strategy & Entrepreneurship</h3>
-      <ul>
-        <li>
-          <strong>Agrinova Eco Hub – Business Plan & Strategy</strong>
-          Market analysis, operational planning, financial projections, and growth strategy.
-        </li>
-      </ul>
-
-      <h3>Web & Platform Development</h3>
-      <ul>
-        <li>
-          <strong>Agrinova / Agrinova Eco Hub Website</strong>
-          Website deployment and digital presence using GitHub and Netlify.
-        </li>
-      </ul>
-
-    </section>
-
-    <footer>
-      <p>© 2026 Jacques Rebero | Business Analytics Portfolio</p>
-    </footer>
-
-  </div>
+</div>
 
 </body>
 </html>
