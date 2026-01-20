@@ -4,84 +4,164 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | Jacques Rebero</title>
+
   <style>
-    body {font-family: Arial, Helvetica, sans-serif; background:#f7f9fc; color:#1f2933;}
-    .container {max-width:1100px; margin:auto; padding:2rem 1.5rem;}
-    h1 {text-align:center; margin-bottom:2rem;}
-    .project {background:#ffffff; padding:1.8rem; border-radius:10px; margin-bottom:2.5rem; box-shadow:0 4px 12px rgba(0,0,0,0.06);}    
-    .project h2 {color:#1e40af; margin-bottom:0.8rem;}
-    .meta {font-size:0.9rem; color:#6b7280; margin-bottom:1rem;}
-    ul {margin-left:1.2rem;}
-    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; margin-top:1.2rem;}
-    .gallery img {width:100%; border-radius:8px; border:1px solid #e5e7eb;}
-    .downloads a {display:inline-block; margin-right:1rem; margin-top:0.8rem; text-decoration:none; color:#2563eb; font-weight:bold;}
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8fafc;
+      color: #1f2937;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1.5rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      color: #1e40af;
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
+
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .project {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    }
+
+    .project h2 {
+      color: #1e40af;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      color: #6b7280;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin-left: 1.2rem;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-top: 1rem;
+      margin-right: 1.5rem;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin-top: 3rem;
+    }
   </style>
 </head>
+
 <body>
 
 <div class="container">
-  <h1>Projects</h1>
 
-  <!-- Inyange Industries Project -->
+  <header>
+    <h1>Projects</h1>
+    <p>Business Analytics · Data Analysis · Strategy · Finance</p>
+    <nav>
+      <a href="index.html">← Home</a>
+    </nav>
+  </header>
+
+  <!-- PROJECT 1 -->
   <div class="project">
     <h2>Sales Performance Analysis – Inyange Industries</h2>
-    <div class="meta">Business Analytics | FMCG | 2023–2024</div>
+    <div class="meta">Business Analytics | FMCG | Rwanda | 2023–2024</div>
 
-    <p><strong>Context & Problem</strong><br>
-    Inyange Industries experienced a decline in juice sales between 2023 and 2024 despite stable pricing and production. Management needed data-driven insights to identify underperforming products and branches.</p>
+    <p>
+      A comprehensive analysis of juice sales performance to identify declining trends,
+      underperforming products, and branch-level operational challenges.
+    </p>
 
-    <p><strong>Objective</strong></p>
     <ul>
-      <li>Analyze sales trends across time and locations</li>
-      <li>Identify underperforming juice flavors</li>
-      <li>Assess the impact of stockouts on revenue</li>
+      <li>Sales trend comparison (2023 vs 2024)</li>
+      <li>Flavor and branch performance analysis</li>
+      <li>Stockout impact assessment</li>
+      <li>Data-driven business recommendations</li>
     </ul>
 
-    <p><strong>Data</strong></p>
-    <ul>
-      <li>Weekly and daily sales by branch</li>
-      <li>Sales by juice flavor</li>
-      <li>Stockout frequency</li>
-      <li>Revenue contribution per product</li>
-    </ul>
-
-    <p><strong>Tools & Methods</strong></p>
-    <ul>
-      <li>Python (Pandas, Matplotlib, Seaborn)</li>
-      <li>Microsoft Excel</li>
-      <li>Trend analysis, comparison analysis, heatmaps</li>
-    </ul>
-
-    <p><strong>Key Insights</strong></p>
-    <ul>
-      <li>Overall sales declined in 2024, especially in Q2 and Q3</li>
-      <li>Mango and Pineapple flavors underperformed</li>
-      <li>Nyabugogo and Kimironko branches had high stockout rates</li>
-      <li>Weekend sales consistently outperformed weekdays</li>
-    </ul>
-
-    <p><strong>Recommendations</strong></p>
-    <ul>
-      <li>Improve inventory management in high-risk branches</li>
-      <li>Reevaluate or reposition low-performing flavors</li>
-      <li>Introduce weekend promotions and bundled offers</li>
-      <li>Apply time series forecasting for demand planning</li>
-    </ul>
-
-    <p><strong>Visual Analysis</strong></p>
-    <div class="gallery">
-      <img src="assets/images/inyange_sales_trend.png" alt="Sales Trend">
-      <img src="assets/images/inyange_flavor_sales.png" alt="Sales by Flavor">
-      <img src="assets/images/inyange_branch_sales.png" alt="Sales by Branch">
-      <img src="assets/images/inyange_stockouts.png" alt="Stockout Frequency">
-      <img src="assets/images/inyange_heatmap.png" alt="Sales Heatmap">
-    </div>
-
-    <div class="downloads">
-      <a href="assets/reports/Inyange_Sales_Analysis_Report.pdf" target="_blank">📄 View Full Report</a>
-      <a href="assets/notebooks/Inyange_Analysis.ipynb" target="_blank">📓 Python Notebook</a>
+    <div class="links">
+      <a href="projects/inyange-sales.html">🔍 View Project</a>
+      <a href="assets/reports/Inyange_Sales_Analysis_Report.pdf" target="_blank">📄 Report</a>
     </div>
   </div>
+
+  <!-- PROJECT 2 -->
+  <div class="project">
+    <h2>Agrinova Startup Business Plan</h2>
+    <div class="meta">Entrepreneurship | Strategy | Agribusiness</div>
+
+    <p>
+      A structured startup business plan focused on agricultural innovation,
+      sustainability, and value-chain optimization in Rwanda.
+    </p>
+
+    <ul>
+      <li>Market analysis and opportunity assessment</li>
+      <li>Revenue model and cost structure</li>
+      <li>Operational and growth strategy</li>
+      <li>Risk assessment and mitigation</li>
+    </ul>
+
+    <div class="links">
+      <a href="#">🔍 View Project (coming soon)</a>
+    </div>
+  </div>
+
+  <!-- PROJECT 3 -->
+  <div class="project">
+    <h2>Personal Finance & Investment Analysis</h2>
+    <div class="meta">Finance | Data Analysis | Decision Making</div>
+
+    <p>
+      Analytical projects focused on budgeting, savings optimization, and
+      investment performance evaluation using financial data.
+    </p>
+
+    <ul>
+      <li>Expense and savings trend analysis</li>
+      <li>Investment portfolio evaluation</li>
+      <li>Financial decision support</li>
+    </ul>
+
+    <div class="links">
+      <a href="#">🔍 View Project (coming soon)</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Jacques Rebero · Business & Data Analytics Portfolio
+  </footer>
 
 </div>
 
